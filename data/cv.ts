@@ -122,7 +122,7 @@ export const cvProjects = [
     period: "March 2026 - Present",
     location: "Hamburg, Germany",
     highlights: [
-      "Led architecture of a full-stack web builder for an event management platform using Next.js, Supabase, and PostgreSQL, designing a canvas-first editing system with clear UI/data separation and reliable editor-to-publish consistency across all event pages.",
+      "Led architecture of a full-stack web builder for an event management platform using Nuxt(Vue.js), Supabase, and PostgreSQL, designing a canvas-first editing system with clear UI/data separation and reliable editor-to-publish consistency across all event pages.",
       "Built a rich-text and content editing experience supporting selection-based formatting, links, inline components (buttons, CTAs), typography rules, and conflict-free interactions, eliminating drag/focus issues and ensuring stable cross-component styling.",
       "Developed a modular event content system with reusable sections (hero, schedule, speakers, registration, navigation/header blocks), including configurable layouts, media uploads, dynamic menus, and robust schema serialization for accurate save/reload and production rendering.",
       "Integrated AI-assisted workflows for event content creation, including AI-generated landing pages and email campaigns, plus AI-powered email components for invitations and updates, improving content creation speed while maintaining structured, production-safe outputs.",

@@ -2,6 +2,12 @@ export default defineNuxtConfig({
   compatibilityDate: '2026-04-21',
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {}
+    }
+  },
   app: {
     head: {
       title: 'Bibi Aremieye | TypeScript Full-Stack Engineer',

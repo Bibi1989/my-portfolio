@@ -116,17 +116,18 @@ export const cvProjects = [
     url: "https://resume.com",
   },
   {
-    id: "decagon4",
-    company: "Decagon Learning Institute",
-    role: "Frontend Engineer",
-    period: "Oct 2019 - Jun 2022",
-    location: "Lagos, Nigeria",
+    id: "forge-website-startup",
+    company: "Forge Website Startup",
+    role: "Full-Stack Engineer",
+    period: "March 2026 - Present",
+    location: "Hamburg, Germany",
     highlights: [
-      "I built backend services for the Tech On-Demand platform with Node.js, Express, and REST APIs.",
-      "I implemented secure authentication with Auth0 to meet enterprise security expectations.",
-      "I supported Resume.com production systems, improving backend performance by 25% and reducing downtime by 30%.",
+      "Led architecture of a full-stack web builder for an event management platform using Next.js, Supabase, and PostgreSQL, designing a canvas-first editing system with clear UI/data separation and reliable editor-to-publish consistency across all event pages.",
+      "Built a rich-text and content editing experience supporting selection-based formatting, links, inline components (buttons, CTAs), typography rules, and conflict-free interactions, eliminating drag/focus issues and ensuring stable cross-component styling.",
+      "Developed a modular event content system with reusable sections (hero, schedule, speakers, registration, navigation/header blocks), including configurable layouts, media uploads, dynamic menus, and robust schema serialization for accurate save/reload and production rendering.",
+      "Integrated AI-assisted workflows for event content creation, including AI-generated landing pages and email campaigns, plus AI-powered email components for invitations and updates, improving content creation speed while maintaining structured, production-safe outputs.",
     ],
-    url: "https://resume.com",
+    url: "https://forge-web-mu.vercel.app/",
   },
 ] as const;
 

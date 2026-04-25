@@ -581,27 +581,27 @@ const _routes = [
   {
     name: "experiences",
     path: "/experiences",
-    component: () => import('./experiences-BBBt68hb.mjs')
+    component: () => import('./experiences-CtXre7Xs.mjs')
   },
   {
     name: "profile",
     path: "/profile",
-    component: () => import('./profile-Dzk1j3y_.mjs')
+    component: () => import('./profile-CqA5wMeX.mjs')
   },
   {
     name: "projects",
     path: "/projects",
-    component: () => import('./projects-Bry1ympH.mjs')
+    component: () => import('./projects-UIDa7WpL.mjs')
   },
   {
     name: "skills",
     path: "/skills",
-    component: () => import('./skills-BbP0MB5i.mjs')
+    component: () => import('./skills-DJy6Efo2.mjs')
   },
   {
     name: "index",
     path: "/",
-    component: () => import('./index-KaSgaeXm.mjs')
+    component: () => import('./index-LJluERga.mjs')
   }
 ];
 const _wrapInTransition = (props, children) => {
@@ -977,7 +977,7 @@ const plugins = [
   components_plugin_4kY4pyzJIYX99vmMAAIorFf3CnAaptHitJgf7JxiED8
 ];
 const layouts = {
-  default: defineAsyncComponent(() => import('./default-C-50saej.mjs').then((m) => m.default || m))
+  default: defineAsyncComponent(() => import('./default-C7TyjFYE.mjs').then((m) => m.default || m))
 };
 const routeRulesMatcher = _routeRulesMatcher;
 const LayoutLoader = defineComponent({

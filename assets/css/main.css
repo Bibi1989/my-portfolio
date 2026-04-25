@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=JetBrains+Mono:wght@400;700&family=Space+Grotesk:wght@500;700&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --font-space-grotesk: "Space Grotesk";
+  --font-inter: "Inter";
+  --font-jetbrains-mono: "JetBrains Mono";
+  --color-background: #f4f4f7;
+  --color-surface: #ffffff;
+  --color-surface-container-low: #efeff5;
+  --color-surface-container: #f7f7fb;
+  --color-surface-container-high: #e2e2ea;
+  --color-surface-variant: #dcdce3;
+  --color-primary: #3b4fc4;
+  --color-primary-container: #5c6fe8;
+  --color-on-primary: #ffffff;
+  --color-secondary: #0a8f63;
+  --color-tertiary: #c45a12;
+  --color-outline: #767680;
+  --color-outline-variant: #c6c5d0;
+  --color-on-background: #1a1b1f;
+  --color-on-surface: #1a1b1f;
+  --color-on-surface-variant: #45464f;
+  --shadow-dock: 0 24px 48px -12px rgba(15, 23, 42, 0.12);
+  --header-bg: rgba(255, 255, 255, 0.72);
+  --footer-bg: #ffffff;
+}
+
+html {
+  font-size: 17px;
+}
+
+.dark {
+  color-scheme: dark;
+  --color-background: #131315;
+  --color-surface: #131315;
+  --color-surface-container-low: #1c1b1d;
+  --color-surface-container: #201f22;
+  --color-surface-container-high: #2a2a2c;
+  --color-surface-variant: #353437;
+  --color-primary: #adc6ff;
+  --color-primary-container: #4d8eff;
+  --color-on-primary: #002e6a;
+  --color-secondary: #4edea3;
+  --color-tertiary: #ffb786;
+  --color-outline: #8c909f;
+  --color-outline-variant: #424754;
+  --color-on-background: #e5e1e4;
+  --color-on-surface: #e5e1e4;
+  --color-on-surface-variant: #c2c6d6;
+  --shadow-dock: 0 64px 64px -12px rgba(0, 0, 0, 0.4);
+  --header-bg: rgba(19, 19, 21, 0.6);
+  --footer-bg: #131315;
+}
+
+body {
+  @apply bg-background text-on-background;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.code-snippet-bg {
+  background-image: radial-gradient(circle at 2px 2px, rgba(59, 79, 196, 0.12) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.pulse-dot-ring::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 9999px;
+  background-color: var(--color-secondary);
+  animation: pulse-ring 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse-ring {
+  0% { transform: scale(1); opacity: 0.8; }
+  100% { transform: scale(3); opacity: 0; }
+}
